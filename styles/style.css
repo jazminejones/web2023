@@ -72,7 +72,7 @@ nav ul li:nth-child(2) a:hover {
 }
 
 .wrapper {
-    background-color: #7ebdc2;
+    background-color: #e5f1f2;
 }
 
 figcaption {
@@ -81,8 +81,8 @@ figcaption {
 }
 
 figcaption a {
-    background-color: #7ebdc2
-    color: #000;
+    background-color: #e5f1f2
+    color: #000;  
     text-transform: uppercase;
     text-decoration: none;
 }
