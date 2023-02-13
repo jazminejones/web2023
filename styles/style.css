@@ -81,8 +81,8 @@ figcaption {
 }
 
 figcaption a {
-    background-color: #ffffff
-    color: #000;  
+    background-color: #ffffff;
+    color: #000; 
     text-transform: uppercase;
     text-decoration: none;
 }
