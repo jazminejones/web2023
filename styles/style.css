@@ -14,7 +14,7 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     justify-items: end;
-    height: 100px;
+    height: 3.5rem;
     padding-top: 0.8rem;
     background-color: #11abde; 
     color: #000;
@@ -63,6 +63,7 @@ nav ul li:nth-child(2) {
     background-color: #30809b;
     color: #000;
     border: 1px solid #30809b;
+    padding: 1rem 4rem 1rem 4rem;
     font-weight: bold;
     text-decoration: none;
 }
@@ -70,17 +71,13 @@ nav ul li:nth-child(2) {
 nav ul li:nth-child(2) a {
     background-color: #30809b;
     color: #000;
-    border: 1px solid #30809b;
-    padding: 1rem 4rem 1rem 4rem;
-    font-weight: bold;
     text-decoration: none;
 }
 
 nav ul li:nth-child(2) a:hover {
     background-color: #30809b;
     color: #fff;
-    border: 1px solid #30809b;
-    font-weight: bold;
+    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -93,7 +90,7 @@ nav ul li:nth-child(2) a:hover {
 #primary {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    padding: 0 1rem 0 2rem;
+    padding: 0 0 1rem 2rem;
 }
 
 #main_article {
@@ -112,7 +109,7 @@ figure img {
 
 figcaption {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.80rem;
 }
 
 figcaption a {
@@ -125,6 +122,11 @@ figcaption a {
 #secondary {
     background-color: #fff;
     color: #000; 
+    padding: 1rem 0 1rem 2rem;
+}
+
+#sub_article {
+    padding: 2rem;
 }
 
 footer {
