@@ -22,23 +22,6 @@ header {
     text-transform: uppercase;   
 }
 
-header h1 {
-    height: 50px;
-    justify-items: left;
-    margin-left: 50px;
-}
-
-header h2 {
-    height: 50px;
-    justify-items: left;
-    margin-left: 50px;
-}
-
-header h3 {
-    height: 90px;
-    text-align: right;
-}
-
 header img {
     height: 15%;
 }
